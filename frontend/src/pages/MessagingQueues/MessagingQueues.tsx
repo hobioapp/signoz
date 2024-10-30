@@ -155,6 +155,7 @@ function MessagingQueues(): JSX.Element {
 						<div className="button-grp">
 							<Button
 								type="default"
+								disabled
 								onClick={(): void =>
 									redirectToDetailsPage(MessagingQueuesViewType.producerLatency.value)
 								}
@@ -173,6 +174,7 @@ function MessagingQueues(): JSX.Element {
 						<div className="button-grp">
 							<Button
 								type="default"
+								disabled
 								onClick={(): void =>
 									redirectToDetailsPage(MessagingQueuesViewType.partitionLatency.value)
 								}
@@ -191,6 +193,7 @@ function MessagingQueues(): JSX.Element {
 						<div className="button-grp">
 							<Button
 								type="default"
+								disabled
 								onClick={(): void =>
 									redirectToDetailsPage(MessagingQueuesViewType.dropRate.value)
 								}
