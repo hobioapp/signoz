@@ -37,4 +37,5 @@ export enum QueryParams {
 	partition = 'partition',
 	selectedTimelineQuery = 'selectedTimelineQuery',
 	ruleType = 'ruleType',
+	mqServiceView = 'mqServiceView',
 }
