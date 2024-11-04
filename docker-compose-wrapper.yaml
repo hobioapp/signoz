@@ -1,3 +1,5 @@
+version: "3.9"
+
 x-clickhouse-defaults: &clickhouse-defaults
   restart: on-failure
   # addding non LTS version due to this fix https://github.com/ClickHouse/ClickHouse/commit/32caf8716352f45c1b617274c7508c86b7d1afab
