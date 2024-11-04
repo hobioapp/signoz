@@ -1,0 +1,5 @@
+name: signoz-wrapper
+version: "1"
+
+include:
+  - path: ./deploy/docker/clickhouse-setup/docker-compose-minimal.yaml
